@@ -1,0 +1,151 @@
+body {
+    font-family: 'Ruda';
+}
+
+.body-home {
+    background-image: url("../img/Foto_Home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.welcome {
+    position: absolute;
+    top: 60%;
+    width: cover;
+    color: white;
+    backdrop-filter: brightness(70%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.margin-auto__content {
+    margin: auto;
+  }
+
+.titulo {
+    margin-top: 56px; 
+    text-align: center;
+    font-family: 'Ruda';
+    color: #000000;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #5A5A5A;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+.centrar-elementos{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.card {
+    background: #FDFFFF;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5%;
+}
+
+.card-img-top {
+    border-radius: 5%;
+}
+
+
+
+/* mobile first */
+body { font-size: 14px; }
+
+@media (max-width: 576px) {
+    .foto-ocultar {
+      display: none;
+      }
+      .portada-original {
+        width: 80%;
+    }
+}
+  
+
+/* tabletas */
+@media (min-width: 768px) {
+    p{
+        font-size: 16px;
+    }
+    .card-text{
+        font-size: 13px;
+        color: #5A5A5A;
+    }
+    h3{
+        font-size: 22px;
+    }
+    td, th {
+        font-size: 13px;
+    }
+    .card-title {
+        font-size: 16px;
+    }
+    .portada-original {
+        width: 100%;
+    }
+
+}
+
+/* escritorio normales */
+@media (min-width: 992px) {
+    p{
+        font-size: 30px;
+    }
+    .card-text{
+        font-size: 25px;
+        color: #5A5A5A;
+    }
+    h3{
+        font-size: 40px;
+    }
+    td, th {
+        font-size: 25px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .portada-original {
+        width: 80%;
+    }
+} 
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+    p{
+    font-size: 30px;
+    }
+    .card-text{
+        font-size: 25px;
+        color: #5A5A5A;
+    }
+    h3{
+        font-size: 40px;
+    }
+    td, th {
+        font-size: 25px;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .portada-original {
+        width: 80%;
+    }
+} 
+
