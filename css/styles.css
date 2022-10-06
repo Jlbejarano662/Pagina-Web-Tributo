@@ -24,7 +24,7 @@ body {
 
 .margin-auto__content {
     margin: auto;
-  }
+}
 
 .titulo {
     margin-top: 56px; 
@@ -65,20 +65,18 @@ a:hover {
 }
 
 
-
 /* mobile first */
 body { font-size: 14px; }
 
 @media (max-width: 576px) {
     .foto-ocultar {
       display: none;
-      }
-      .portada-original {
+    }
+    .portada-original {
         width: 80%;
     }
 }
   
-
 /* tabletas */
 @media (min-width: 768px) {
     p{
